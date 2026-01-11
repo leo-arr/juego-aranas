@@ -96,20 +96,35 @@ function iniciarRonda() {
 }
 
 function verificarRespuesta(respuesta) {
+  const mensaje = document.getElementById("mensaje");
+  const botones = document.querySelectorAll("button");
+
+  // bloquear botones
+  botones.forEach(btn => btn.disabled = true);
+
   if (respuesta === aranaActual.nombre) {
     puntaje++;
     document.getElementById("puntaje").textContent = `Puntaje: ${puntaje}`;
+    mensaje.textContent = "¡Correcto! 🎉";
+    mensaje.style.color = "green";
   } else {
     vidas--;
     document.getElementById("vidas").textContent = "❤️".repeat(vidas);
+    mensaje.textContent = `Incorrecto 😢 La respuesta correcta era: ${aranaActual.nombre}`;
+    mensaje.style.color = "red";
   }
 
-  if (vidas > 0) {
-    iniciarRonda();
-  } else {
-    finalizarJuego();
-  }
+  setTimeout(() => {
+    mensaje.textContent = "";
+
+    if (vidas > 0) {
+      iniciarRonda();
+    } else {
+      finalizarJuego();
+    }
+  }, 1500);
 }
+
 
 function finalizarJuego() {
   document.body.innerHTML = `
