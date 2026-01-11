@@ -24,11 +24,11 @@ const aranas = [
     imagenes: ["imagenes/falsa-viuda1.jpg", "imagenes/falsa-viuda2.jpg", "imagenes/falsa-viuda3.jpg", "imagenes/falsa-viuda4.jpg", "imagenes/falsa-viuda5.jpg", "imagenes/falsa-viuda6.jpg", "imagenes/falsa-viuda7.jpg", "imagenes/falsa-viuda8.jpg", "imagenes/falsa-viuda9.jpg", "imagenes/falsa-viuda10.jpg", "imagenes/falsa-viuda11.jpg", "imagenes/falsa-viuda12.jpg", "imagenes/falsa-viuda13.jpg"]
   },
   {
-    nombre: "Relojera o patas largas",
+    nombre: "Araña Relojera o patas largas",
     imagenes: ["imagenes/relojera1.jpg", "imagenes/relojera2.jpg"]
   },
   {
-    nombre: "Tigre",
+    nombre: "Araña Tigre",
     imagenes: ["imagenes/tigre1.jpg", "imagenes/tigre2.jpg", "imagenes/tigre3.jpg", "imagenes/tigre4.jpg"]
   },
   {
@@ -36,7 +36,7 @@ const aranas = [
     imagenes: ["imagenes/austrochilidae1.jpg"]
   },
   {
-    nombre: "Fantasma",
+    nombre: "Araña Fantasma",
     imagenes: ["imagenes/fantasma1.jpg"]
   },
   {
@@ -44,19 +44,19 @@ const aranas = [
     imagenes: ["imagenes/opilion1.jpg"]
   },
   {
-    nombre: "Saltarina",
+    nombre: "Araña Saltarina",
     imagenes: ["imagenes/saltarina1.jpg"]
   },
   {
-    nombre: "Sicario",
+    nombre: "Araña Sicario",
     imagenes: ["imagenes/sicario1.jpg", "imagenes/sicario2.jpg"]
   },
   {
-    nombre: "Tierra",
+    nombre: "Araña de Tierra",
     imagenes: ["imagenes/tierra1.jpg"]
   },
   {
-    nombre: "Tubo",
+    nombre: "Araña Tubo",
     imagenes: ["imagenes/tubo1.jpg"]
   }
 ];
