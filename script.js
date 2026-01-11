@@ -115,7 +115,7 @@ function finalizarJuego() {
   document.body.innerHTML = `
     <h1>¡Juego terminado! 🎉</h1>
     <h2>Puntaje final: ${puntaje}</h2>
-    <p>¡Muy bien! Cada vez reconoces mejor las arañas 🕷️💚</p>
+    <p>¡Muy bien monita! Cada vez reconoces mejor las arañas 🕷️💚 Te amo</p>
   `;
 }
 
