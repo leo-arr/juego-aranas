@@ -5,7 +5,7 @@ let aranaActual = null;
 const aranas = [
   {
     nombre: "Viuda negra",
-    imagenes: ["imagenes/viuda1.jpg", "imagenes/viuda2.jpg"]
+    imagenes: ["imagenes/viuda1.JPG", "imagenes/viuda2.jpg"]
   },
   {
     nombre: "Araña lobo",
