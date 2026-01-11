@@ -41,7 +41,7 @@ const aranas = [
   },
   {
     nombre: "Opilon",
-    imagenes: ["imagenes/opilon1.jpg"]
+    imagenes: ["imagenes/opilion1.jpg"]
   },
   {
     nombre: "Saltarina",
